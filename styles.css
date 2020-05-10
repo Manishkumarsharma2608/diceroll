@@ -3,6 +3,11 @@
   margin-top: 5%;
   width: 50%;
 }
+#checkBox {
+  margin: auto;
+  margin-top: 5%;
+  width: 50%;
+}
 .btn-roll {
   border: solid #4ecca3 0.1rem;
   background-color: red;
@@ -11,6 +16,11 @@
   font-size: 1.5rem;
   font-weight: bolder;
   width: 100px;
+}
+.chkLabel {
+  color: white;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
 }
 
 .container {
