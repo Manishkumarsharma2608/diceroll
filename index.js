@@ -15,3 +15,15 @@ function roll() {
     document.querySelector("h1").innerHTML = "Draw!";
   }
 }
+function checkBox() {
+  var checkBox = document.querySelector(".chkBox1");
+  var diceImageTwo = document.querySelector(".dice2");
+  var heading = document.querySelector("h1");
+  if (checkBox.checked == true) {
+    diceImageTwo.style.visibility = "hidden";
+    heading.style.visibility = "hidden";
+  } else {
+    diceImageTwo.style.visibility = "visible";
+    heading.style.visibility = "visible";
+  }
+}
